@@ -9,7 +9,7 @@ export default function Home() {
         <p> Dette er vennen min Haron </p>
         <Image
           className="dark:invert"
-          src="/haron.jpg"
+          src="../public/haron.jpg"
           alt=""
           width={100}
           height={20}
