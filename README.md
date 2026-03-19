@@ -17,12 +17,14 @@ Dette repoet tilhører en workshop/arrangement som handler om å lage sitt eget 
 Vi forventer at du har `node` og `npm` installert. For å laste ned til ditt operativsystem sjekk innstruksene her:
 
 - **På Mac**: `node` og `npm` kan enkelt installeres ved å bruke [Homebrew](https://brew.sh). Åpne terminalen og kjør kommandoen `brew install node`. Om du ikke Homebrew, kan du laste ned `node` fra [Node.js sin offisielle nettside](https://nodejs.org/en/download).
-- **Windows-brukere**: Besøk [Node.js sin offisielle nettside](https://nodejs.org/en/download) og last ned den relevante installasjonsfilen for ditt system.
+- **Windows-brukere**: Last ned `WSL` (widows subsystem for linux) ved å følge [denne guiden](https://docs.echo-webkom.no/guides/wsl-oppsett/) og så følg stegene i [denne guiden](https://docs.echo-webkom.no/guides/installere-fnm/) for å laste ned node.
 - **Linux-brukere**: Sjekk ut pakkehåndteringssystemet som følger med din distro for å installere `node` og `npm`.
 
 ### GitHub
 
 Lag en konto på [Github](https://github.com)
+
+Følg [denne guiden](https://docs.echo-webkom.no/guides/sette-opp-git/) for å legge til ssh-nøkkel til GitHub-en din. 
 
 ## Hvordan starte?
 
