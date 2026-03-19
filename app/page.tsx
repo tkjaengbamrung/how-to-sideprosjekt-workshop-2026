@@ -1,4 +1,4 @@
-// import Image from "next/image";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -7,10 +7,13 @@ export default function Home() {
         <h1> Hei, jeg heter Tan </h1>
         <p> Jeg studerer Datateknologi på Universitetet i Bergen </p>
         <p> Dette er vennen min Haron </p>
-        <img 
+        <Image
+          className="dark:invert"
           src="/haron.jpg"
+          alt=""
           width={100}
           height={20}
+          priority
         />
       </div>
     </center>
